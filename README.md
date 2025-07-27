@@ -7,8 +7,10 @@ Blocking and Non-Blocking I/O with Python/Flask + k6 tests
 2. activate virtual env `source venv/bin/activate`
 3. install requirements `pip install -r requirements.txt`
 4. init db `python3 init.py`
-5. run blocking i/o app `python3 blocking.py` and non-blocking i/o app `python3 nonblocking.py`
-6. run blocking i/o test `docker compose run k6 run /tests/blocking.js` and non-blocking i/o test `docker compose run k6 run /tests/nonblocking.js`
+5. run blocking i/o app `python3 blocking.py`
+6. run non-blocking i/o app `python3 nonblocking.py`
+7. run blocking i/o test `docker compose run k6 run /tests/blocking.js`
+8. run non-blocking i/o test `docker compose run k6 run /tests/nonblocking.js`
 
 ### What you shall see
 ```sh
