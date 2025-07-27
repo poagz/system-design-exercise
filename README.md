@@ -1,4 +1,4 @@
-# system-design-exercise
+# System Design Exercise
 Blocking and Non-Blocking I/O with Python/Flask + k6 tests
 
 
