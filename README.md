@@ -11,6 +11,7 @@ Blocking and Non-Blocking I/O with Python/Flask + k6 tests
 6. run blocking i/o test `docker compose run k6 run /tests/blocking.js` and non-blocking i/o test `docker compose run k6 run /tests/nonblocking.js`
 
 ### What you shall see
+```sh
 poagz@laptop$ docker compose run k6 run /tests/nonblocking.js
 
          /\      Grafana   /‾‾/  
@@ -89,6 +90,7 @@ poagz@laptop$ docker compose run k6 run /tests/blocking.js
     iterations..............................................................: 66     11.673337/s
     vus.....................................................................: 10     min=10       max=10
     vus_max.................................................................: 10     min=10       max=10
+```
 
     NETWORK
     data_received...........................................................: 131 kB 23 kB/s
