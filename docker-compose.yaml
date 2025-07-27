@@ -1,0 +1,7 @@
+services:
+  k6:
+    container_name: k6
+    image: grafana/k6
+    network_mode: host
+    volumes:
+      - ./tests:/tests
